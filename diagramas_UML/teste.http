@@ -1,0 +1,38 @@
+POST http://localhost:3000/paciente
+Content-Type: application/json
+
+{
+    "nome": "aaaaaaa",
+    "peso": 77777,
+    "altura": 77777
+}
+
+###
+GET http://localhost:3000/pacientes
+
+###
+
+GET http://localhost:3000/paciente/3
+
+###
+DELETE http://localhost:3000/paciente/8
+
+###
+
+PUT http://localhost:3000/paciente/6
+
+Content-Type: application/json
+{
+    "nome": "teste",
+    "peso": 555,
+    "altura": 555
+}
+
+###
+
+PATCH  http://localhost:3000/paciente/6
+Content-Type: application/json
+
+{
+    "nome": "teste"
+}
