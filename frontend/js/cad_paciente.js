@@ -6,6 +6,8 @@ btn_cadastrar.addEventListener('click', (e)=>{
     const nome = document.getElementById('nome').value
     const peso = Number(document.getElementById('peso').value)
     const altura = Number(document.getElementById('altura').value)
+    const altura2 = altura * 1.2
+    console.log(altura2)
 
     const valores = {
         nome: nome,
